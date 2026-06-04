@@ -1,0 +1,6 @@
+{
+  "name": "API Key Terminal Tracker",
+  "description": "Terminal pelacakan kunci API khusus dengan tema dark-web, memungkinkan penambahan, penyusunan status kuota habis, penyalinan cepat, dan penyaringan kunci API.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

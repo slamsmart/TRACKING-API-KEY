@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300..650;1,300..650&family=JetBrains+Mono:ital,wght@0,300..600;1,300..600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom terminal CRT flicker or glow animations */
+@keyframes pulseGlow {
+  0%, 100% {
+    text-shadow: 0 0 8px rgba(81, 255, 0, 0.4);
+  }
+  50% {
+    text-shadow: 0 0 16px rgba(16, 185, 129, 0.7);
+  }
+}
+
+.glow-text-hacker {
+  color: #51ff00;
+  animation: pulseGlow 4s infinite ease-in-out;
+}
